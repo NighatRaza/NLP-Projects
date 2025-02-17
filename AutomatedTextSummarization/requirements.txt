@@ -1,0 +1,7 @@
+python==3.10
+spacy
+pandas
+transformers
+pytorch
+tensorflow
+tkinter

@@ -1,5 +1,6 @@
 I've made a spam classifier using streamlit python.
 Dataset for training: https://www.kaggle.com/datasets/uciml/sms-spam-collection-dataset
+
 Steps performed:
 1. Data Cleaning: 
   - Removing un-necessary columns
@@ -19,19 +20,19 @@ Steps performed:
   tried countVectorizer and tf-idf for vectorization, but tf-idf performed better, so I picked tf-idf
   tried and tested accuracy and percision scores(in imbalanced data, false positives are important in the case of spam detection)
   models i've tried are:
-  - logistic regression
-  - svc
-  - kneighbors classifier
-  - gaussian naive bayes
-  - multinomial naive bayes
-  - bernoulli naive bayes
-  - decision trees classifier
-  - random forest classifier
-  - ada boost classifier
-  - Bagging classifier
-  - Extra Trees classifier
-  - Gradient Boosting classifier
-  - XGBoost classifier
+  - Logistic Regression
+  - SVC
+  - KNeighbors Classifier
+  - Gaussian Naive Bayes
+  - Multinomial Naive Bayes
+  - Bernoulli Naive Bayes
+  - Decision Trees Classifier
+  - Random Forest Classifier
+  - Ada Boost Classifier
+  - Bagging Classifier
+  - Extra Trees Classifier
+  - Gradient Boosting Classifier
+  - XGBoost Classifier
 
     Among all of these models, MultiNommial Naive Bayes and Random Forest Classifier performed the best with the precision 1.0 and higher accuracy.
 5. Improved the model

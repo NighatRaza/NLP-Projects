@@ -37,7 +37,7 @@ Steps performed:
   - Gradient Boosting Classifier
   - XGBoost Classifier
 
-    Among all of these models, MultiNommial Naive Bayes and Random Forest Classifier performed the best with the precision 1.0 and higher accuracy.
+    Among all of these models, MultiNomial Naive Bayes and Random Forest Classifier performed the best with the precision 1.0 and higher accuracy.
     
 5. Improved the model
 

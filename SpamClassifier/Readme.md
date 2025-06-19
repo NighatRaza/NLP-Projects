@@ -18,8 +18,10 @@ Steps performed:
   - Removed Punctuation
   - Performed Stemming/Lemmetization
 4. Model building and evaluation
+
   tried countVectorizer and tf-idf for vectorization, but tf-idf performed better, so I picked tf-idf
   tried and tested accuracy and percision scores(in imbalanced data, false positives are important in the case of spam detection)
+  
   models i've tried are:
   - Logistic Regression
   - SVC
@@ -36,7 +38,9 @@ Steps performed:
   - XGBoost Classifier
 
     Among all of these models, MultiNommial Naive Bayes and Random Forest Classifier performed the best with the precision 1.0 and higher accuracy.
+    
 5. Improved the model
+
   tried different techniques to make the model perform better:
   - changed the parameter "max_features = 3000" of tf-idf vectorizer: accuracy and precision got better
   - scaled the data using min-max scaling(to keep data between 0 and 1): precision got worse
@@ -45,6 +49,7 @@ Steps performed:
   - did stacking classification using MultiNomial Naive Bayes, Random Forest, Extra Trees and XGBoost Classifiers by keeping MultiNomial Naive Bayes as final estimator: accuracy got low
 
   so, As a result I just kept with the MultiNomial Naive Bayes with tf-idf vectorizer having "max_features = 3000"
+  
 6. Pickled the vectorizer and model and made app.py having UI of streamlit
 
 Video I followed: https://www.youtube.com/watch?v=YncZ0WwxyzU&ab_channel=CampusX

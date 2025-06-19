@@ -7,7 +7,7 @@ Steps performed:
   - Removing un-necessary columns
   - Encoding target variable i.e. form spam/ham to 1 and 0 respectively
   - Removed Duplicates
-2. EDA
+2. EDA 
   - Barplots and figures to know the features
   - made a few columns and made a wordcloud to explore the co-relation
 3. Text Processing
